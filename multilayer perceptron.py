@@ -1,4 +1,4 @@
-# 24/06/25 multilayer perceptron from scratch
+# 24/06/25 multilayer perceptron from scratch work in progress
 
 import numpy as np
 
