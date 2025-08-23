@@ -23,7 +23,7 @@ class Model(nn.Module):
 # Reproducibility
 torch.manual_seed(42)
 
-# Load data
+# Load data. I downloaded from https://www.kaggle.com/datasets/oddrationale/mnist-in-csv
 train_data = pd.read_csv("mnist_train.csv")
 test_data = pd.read_csv("mnist_test.csv")
 
