@@ -26,7 +26,7 @@ class Model(nn.Module):
         return x
     
 # Load data
-data = pd.read_csv("IMDB Dataset.csv")
+data = pd.read_csv("IMDB Dataset.csv") # i downloaded it from https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 data['sentiment'] = data['sentiment'].replace('positive', 1.0)
 data['sentiment'] = data['sentiment'].replace('negative', 0.0)
 texts = data['review'].values
