@@ -18,4 +18,10 @@ The first 2 columns being inputs and last column denoting an output it can be tr
 
 ## PyTorch
 
-### coming soon
+### Movie Review Sentiment Analysis:
+
+I coded an MLP with 2 hidden layers to take a movie review and then output if it was positive or negative. It was trained on 50,000 movie reviews from IMDB.
+
+### MNIST Handwritten Digit Classifier
+
+I coded an MLP to train on the MNIST dataset of handwritten digits to classify what digit they corresponded to.
