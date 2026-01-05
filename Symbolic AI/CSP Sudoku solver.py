@@ -1,3 +1,5 @@
+# 22/12/25 Sudoku solver using Constraint Propagation and the Minimum Remaining Value heuristic
+
 def sudoku_solver(sudoku):
     # Initialise constraint sets
     rows = [set() for _ in range(9)]
