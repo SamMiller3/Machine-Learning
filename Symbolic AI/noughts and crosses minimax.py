@@ -1,4 +1,4 @@
-# 5/01/2025 MiniMax Noughts and Crosses solver
+# 5/01/2026 MiniMax Noughts and Crosses solver
 
 import numpy as np
 import math
